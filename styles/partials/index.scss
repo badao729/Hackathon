@@ -1,0 +1,36 @@
+@use "./typography" as *;
+.title {
+  //   display: flex;
+  //   justify-content: center;
+  //   text-align: center;
+}
+h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 10rem;
+  color: white;
+  text-align: center;
+
+  &:hover {
+    transition: 0.3s ease-in-out;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(/assets/photo-1520034475321-cbe63696469a.avif);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card-image {
+  width: 100%;
+  height: 10rem;
+}
